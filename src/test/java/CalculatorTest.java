@@ -13,17 +13,17 @@ public class CalculatorTest {
 
     @Test
     public void checkAddNumbers(){
-        assertEquals(2, calculator.addNumbers(calculator.number0, calculator.number2));
+        assertEquals(2, calculator.addNumbers(0, 2));
     }
 
     @Test
     public void checkSubtractNumbers(){
-        assertEquals(1, calculator.subtractNumber(calculator.number3, calculator.number2));
+        assertEquals(1, calculator.subtractNumber(3, 2));
     }
 
     @Test
     public void checkMultiplyNumbers(){
-        assertEquals(6, calculator.multiplyNumbers(calculator.number2, calculator.number3));
+        assertEquals(6, calculator.multiplyNumbers(2, 3));
     }
 
     @Test
